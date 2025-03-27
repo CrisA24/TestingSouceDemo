@@ -1,4 +1,4 @@
-package Utils;
+package utils;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -10,7 +10,7 @@ public class ConfigReader {
     static {
         try {
             properties = new Properties();
-            FileInputStream fis = new FileInputStream("src/main/java/Utils/config.properties");
+            FileInputStream fis = new FileInputStream("src/main/resources/config.properties");
             properties.load(fis);
         } catch (IOException e) {
             e.printStackTrace();

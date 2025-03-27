@@ -1,4 +1,4 @@
-package Utils;
+package utils;
 
 public class Constants {
         public static final String ERROR_USERNAME_REQUIRED = "Epic sadface: Username is required";
